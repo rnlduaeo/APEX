@@ -56,7 +56,8 @@ APEX 개발 환경을 총 관리하는 APEX ADMIN ACCOUNT를 생성합니다. AD
 
 	SQL> @apxchpwd.sql --추후에 ADMIN 패스워드를 잊어버렸을 때에도 이 스크립트를 돌려 PASSWORD RESET할 수 있음.
 
-## Delete a file
+### APEX_PUBLIC_USER 설정
+ORACLE DATABASE 11G 이상 버전 부터는 
 
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
@@ -179,6 +180,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjgzOTg5ODcsLTEwNjQ3NDkzMDUsLT
+eyJoaXN0b3J5IjpbLTIxNDY5MzE4OTIsLTEwNjQ3NDkzMDUsLT
 E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
 -->
