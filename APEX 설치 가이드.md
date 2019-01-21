@@ -1,6 +1,6 @@
 # APEX 및 ORDS 설치 가이드
 
-해당 문서는 ORACLE DATABASE 11GR2 기반으로 작성되었습니다. 이미 WEB SERVER를 위한 TOMCAT 세팅이 완료되었다는 가정하에 문서가 작
+해당 문서는 ON-PREMISE 환경에서 APEX 설치 과정을 설명합니다. WEB SERVER를 위한 TOMCAT 세팅이 완료되었다는 가정하에 문서가 작성되었습니다.
 
 ## 버전 정보
 - ORACLE DATABASE : 11GR2
@@ -159,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIxMTYwOTEsLTEwNjQ3NDkzMDUsLT
-E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbOTA4NzU4MTQ3LC0xMDY0NzQ5MzA1LC0xND
+Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
