@@ -157,19 +157,20 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 |`ORDS_PUBLIC_USER`|Oracle REST Data Services 사용 가능 스키마에서 RESTful 서비스를 호출하는 사용자.
 ### DB서버에서 방금 생성된 USER 확인
 	SQL> select username, created from dba_users order by created desc;
+	USERNAME                       CREATED
+	------------------------------ ---------
+	ORDS_METADATA                  18-JAN-19
+	ORDS_PUBLIC_USER               18-JAN-19
+	APEX_LISTENER                  18-JAN-19
+	APEX_REST_PUBLIC_USER          18-JAN-19
+	APEX_INSTANCE_ADMIN_USER       17-JAN-19
+	FLOWS_FILES                    17-JAN-19
+	APEX_PUBLIC_USER               17-JAN-19
+	APEX_180200                    17-JAN-19
+	.....
 
-USERNAME                       CREATED
------------------------------- ---------
-ORDS_METADATA                  18-JAN-19
-ORDS_PUBLIC_USER               18-JAN-19
-APEX_LISTENER                  18-JAN-19
-APEX_REST_PUBLIC_USER          18-JAN-19
-APEX_INSTANCE_ADMIN_USER       17-JAN-19
-FLOWS_FILES                    17-JAN-19
-APEX_PUBLIC_USER               17-JAN-19
-APEX_180200                    17-JAN-19
-
-
+### ORDS 이미지 디렉토리 생성
+1. DATABASE 서버에 APEX 가 설치된 경로에 있는 images 폴더를 TOMCAT서버에
 	
 
 # Synchronization
@@ -286,8 +287,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDI0NTcwNDksLTM3NjkxMjczMiwtMT
-AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
-OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
-EwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbMTQ2OTkzNzQwMCwtMzc2OTEyNzMyLC0xMD
+AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
+LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
+A5OTk5MjU2MF19
 -->
