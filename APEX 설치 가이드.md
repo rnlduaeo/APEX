@@ -49,8 +49,6 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 ### APEX instance admin account 생성
 
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
 ## Delete a file
 
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
@@ -174,6 +172,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTIyNjQ5NSwtMTA2NDc0OTMwNSwtMT
+eyJoaXN0b3J5IjpbLTk5Mzc4MjM4MCwtMTA2NDc0OTMwNSwtMT
 Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
