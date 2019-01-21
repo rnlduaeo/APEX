@@ -200,14 +200,15 @@ APEX 최초 접속 시 INTERNAL WORKSPACE에 ADMIN 유저로 접속합니다.
 
 ![enter image description here](https://lh3.googleusercontent.com/P00p1crSLckMKbA_7piO0tDdWZMHx6wYBhx_N3c8mUjPgR50VFGhMDUT5fVqUW0vW4v5C4ZPzhVb)
 
-
+화면 상단에 Create Workspace 버튼을 클릭하여 workspace 를 생성한다. 
 ![enter image description here](https://lh3.googleusercontent.com/PKM2inLXPp4LtNTay9W318JX5bk2Q9IZBPuPMyxFAC1F_Q6XTJWe2jQdlKkPuWs1desOV5Ii1J-e)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4OTM0MDA1LDczMzM0MjI5Miw0ODU3OT
-cyODYsLTM3NjkxMjczMiwtMTAwMjkzMzE2LDE5NDY1MzY4OTQs
-OTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2NDc0OTMwNSwtMTQ2NT
-ExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbMTg5MjQ5ODUwMywzMTg5MzQwMDUsNzMzMz
+QyMjkyLDQ4NTc5NzI4NiwtMzc2OTEyNzMyLC0xMDAyOTMzMTYs
+MTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0xMDY0Nz
+Q5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2
+MF19
 -->
