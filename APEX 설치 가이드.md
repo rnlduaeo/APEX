@@ -12,9 +12,9 @@
  APEX는 ORACLE DATABASE 안에 내장되어 있는 WEB DEVELOPMENT를 위한 PLATFORM 입니다. ORACLE DB를 설치하면 기본적으로 내장되어 있으나 버전이 최신이 아닐 수 있으므로 OTN(ORACLE TECHNOLOGY NETWORK)에 등재되어 있는 [최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받아서 사용하는 것을 권장합니다. 
  
  APEX 설치는 크게 두가지의 단계로 이루어져 있습니다.
- 1.  **APEX 설치**입니다. APEX는 다수의 SCHEMA, PL/SQL PACKAGE 로 이루어져 있으며 DATABASE 서버내에 설치됩니다. 
+ 1.  **APEX 설치**. APEX는 다수의 SCHEMA, PL/SQL PACKAGE 로 이루어져 있으며 DATABASE 서버내에 설치됩니다. 
  
- 2.  APEX의 WEB LISTENER 역할을 담당하는 **ORDS 설치**입니다. ORDS는 4가지 모드로 설치 가능합니다.
+ 2.  APEX의 WEB LISTENER 역할을 담당하는 **ORDS 설치**. ORDS는 4가지 모드로 설치 가능합니다.
  -- STANDALONE 모드 : APEX가 설치된 DB 서버에 ORDS 설치
  -- ORACLE WEBLOGIC SERVER에 설치
  -- GLASSFISH SERVER에 설치
@@ -46,7 +46,8 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
   
 	    SQL> @apexins.sql APEX APEX TEMP /i/ -- Full development 환경을 설치
     - 설치 패키지 뒤의 parameter는 각각 순서대로 APEX APPLICATION USER tablespace, APEX FILE USER tablespace, APEX 가상 이미지 디렉토리 이름을 의미합니다.
-## Rename a file
+### APEX instance admin account 생성
+
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
@@ -173,6 +174,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQwMjEwNTgsLTEwNjQ3NDkzMDUsLT
-E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbLTk2MTIyNjQ5NSwtMTA2NDc0OTMwNSwtMT
+Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
