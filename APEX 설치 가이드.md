@@ -62,7 +62,8 @@ APEX_PUBLIC_USER는 최초 생성 시 RANDOM PASSWORD로 설정되어 있습니�
 	SQL> ALTER PROFILE DEFAULT limit PASSWORD_LIFE_TIME UNLIMITED ;
 
 
-APEX_PUBLIC_ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIFE TIME이 180일로 설정되어 있습니다. 이 제한으로 인해 ORDS에서 APEX로 CONNECTION 시 PASSWORD가 LOCK-IN되어 문제가 발생할 수 있으므로 해당 유저의 PASSWORD 설정을 변경합니다.
+APEX_PUBLIC_USER는 ORDS에서 ORACLE APEX 내 PL / SQL Gateway 작업 (예 : 모든 Oracle Application Express 작업)을 호출 할 때 사용되는 데이터베이스 사용자입니다. 
+ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIFE TIME이 180일로 설정되어 있습니다. 이 제한으로 인해 ORDS에서 APEX로 CONNECTION 시 PASSWORD가 LOCK-IN되어 문제가 발생할 수 있으므로 해당 유저의 PASSWORD 설정을 변경합니다.
 
 	SQL> ALTER PROFILE DEFAULT limit PASSWORD_LIFE_TIME UNLIMITED;
 	
@@ -269,8 +270,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5NDUwOTA0LC0zNzY5MTI3MzIsLTEwMD
-I5MzMxNiwxOTQ2NTM2ODk0LDkyMTE0NTM0LDEzMDUxODU3MDgs
-LTEwNjQ3NDkzMDUsLTE0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMD
-k5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbNTgwMDk0MiwtMzc2OTEyNzMyLC0xMDAyOT
+MzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0x
+MDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OT
+k5MjU2MF19
 -->
