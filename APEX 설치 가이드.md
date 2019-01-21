@@ -175,7 +175,11 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 		scp -i /home/oracle/privateKey -r /home/oracle/apex/images opc@<db server ip>:<target directory>
 	
 2. TOMCAT 서버에 이미지 디렉토리 i 생성
-APEX 설치 시 이미지 가상 디렉토리를 /i/ 로 설정해주었으므로 TOMCAT 설치경로의 webapps 디렉토리에 
+APEX 설치 시 이미지 가상 디렉토리를 /i/ 로 설정해주었으므로 TOMCAT 설치경로의 webapps 디렉토리에 /i/를 생성하고 방금 가져온 images 폴더의 내용을 복사합니다.
+		
+		$ mkdir $CATALINA_HOME/webapps/i/
+		$ cp -R /tmp/apex/images/* $CATALINA_HOME/webapps/i/
+		
 
 # Synchronization
 
@@ -291,8 +295,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNjkyMDkyLC0zNzY5MTI3MzIsLTEwMD
-I5MzMxNiwxOTQ2NTM2ODk0LDkyMTE0NTM0LDEzMDUxODU3MDgs
-LTEwNjQ3NDkzMDUsLTE0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMD
-k5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbLTE3MzQ4MzkzNTcsLTM3NjkxMjczMiwtMT
+AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
+OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
+EwOTk5OTI1NjBdfQ==
 -->
