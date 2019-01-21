@@ -80,7 +80,7 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 ### ORDS 다운로드
 [다운로드 링크](https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html) 에서 최신 ORDS를 다운로드 받습니다.
 
-	$ mkdir ords -- root 유저로 진행
+	$ mkdir ords 
 	$ unzip ords-18.4.0.354.1002.zip -d ords	
 
 
@@ -198,7 +198,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MDI4NzU3LC0xMDAyOTMzMTYsMTk0Nj
-UzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0xMDY0NzQ5MzA1
-LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTg0Mjg2MzA3NiwtMTAwMjkzMzE2LDE5ND
+Y1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2NDc0OTMw
+NSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ
+==
 -->
