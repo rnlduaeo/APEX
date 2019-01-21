@@ -22,6 +22,7 @@
 이 문서는 APACHE TOMCAT에 설치하는 것을 설명합니다.
      >NOTE :  
      APEX, ORDS 버전 별 지원되는 플랫폼이 상이할 수 있으므로 APEX버전, ORDS 버전, TOMCAT 버전을 필히 확인 후 설치하시기 바랍니다.
+[설치 전 버전 확인](https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/18.3/aelig/installing-REST-data-services.html#GUID-57B22E09-081E-4326-A9D5-61635B518931)
 
 ## Create files and folders
 
@@ -158,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NTE0MjM1LC0xMDY0NzQ5MzA1LC0xND
-Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbMTg0MTE1ODk4MCwtMTA2NDc0OTMwNSwtMT
+Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
