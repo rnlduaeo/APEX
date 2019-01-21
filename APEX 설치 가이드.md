@@ -99,6 +99,7 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 	-rw-r--r--. 1 root root 59033835 Jan 18 07:40 ords.war
 	drwxr-xr-x. 2 root root     4096 Jan 18 08:25 params
 	$ java -jar ords.war install advanced
+	
 
 
 # Synchronization
@@ -215,8 +216,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjkxMjczMiwtMTAwMjkzMzE2LDE5ND
-Y1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2NDc0OTMw
-NSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ
-==
+eyJoaXN0b3J5IjpbLTIxMjEwODY5MTgsLTM3NjkxMjczMiwtMT
+AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
+OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
+EwOTk5OTI1NjBdfQ==
 -->
