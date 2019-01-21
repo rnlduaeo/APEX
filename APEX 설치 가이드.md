@@ -77,7 +77,7 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 - JDK 8 이상
 - Apache Tomcat 8.5 이상
 ### 사전 점검 사항
-ORDS 오
+TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포트를 열어 줍니다. 
 
 ### ORDS 다운로드
 [다운로드 링크](https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html) 에서 최신 ORDS를 다운로드 받습니다.
@@ -215,7 +215,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMzEwODc5LC0xMDAyOTMzMTYsMTk0Nj
-UzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0xMDY0NzQ5MzA1
-LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTM3NjkxMjczMiwtMTAwMjkzMzE2LDE5ND
+Y1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2NDc0OTMw
+NSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ
+==
 -->
