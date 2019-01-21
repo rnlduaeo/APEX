@@ -9,7 +9,7 @@
 - ORDS (ORACLE RESTFUL DATA SERVICE) : 18.4.0
 
 ## 설명
-APEX는 ORACLE DATABASE
+APEX는 ORACLE DATABASE 안에 내장되어 있는 WEB DEVELOPMENT를 위한 PLATFORM 입니다. ORCLE DB를 설치하면
 	이것은 코드입니다.
 	
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -149,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Njk2MjkzNSwxMDc0NzQ5Mzc1LDEwOT
-k5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbNDA3OTMzMzY2LDEwNzQ3NDkzNzUsMTA5OT
+k5MjU2MF19
 -->
