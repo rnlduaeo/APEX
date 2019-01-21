@@ -69,6 +69,9 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 
 
 ## ORDS 설치 [Tomcat 서버에서 작업]
+>Note:
+>이 문서는 Tomcat이 이미 설치되어 있다는 가정하에 작성되었습니다. Tomcat 설치 및 환경 세팅관련은 다른 문서를 참조하세요.
+
 
 
 
@@ -186,7 +189,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg4MjQ1NjUsOTIxMTQ1MzQsMTMwNT
-E4NTcwOCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5
-Mzc1LDEwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MT
+g1NzA4LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkz
+NzUsMTA5OTk5MjU2MF19
 -->
