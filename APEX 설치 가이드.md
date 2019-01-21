@@ -48,6 +48,9 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
     - 설치 패키지 뒤의 parameter는 각각 순서대로 APEX APPLICATION USER tablespace, APEX FILE USER tablespace, APEX 가상 이미지 디렉토리 이름을 의미합니다.
 
 3. APEX 설치가 완료되면 APEX_180200, FLOWS_FILES, APEX_PUBLIC_USER 가 생성됩니다
+
+		SQL> select username, created, account_status, lock_date from dba_users where created > trunc(sysdate) order by 2; --생성한 USER 확인
+		
 ### APEX instance admin account 생성
 
 
@@ -174,6 +177,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MDAxNjY1LC0xMDY0NzQ5MzA1LC0xND
+eyJoaXN0b3J5IjpbMTEzMTY4MDQyLC0xMDY0NzQ5MzA1LC0xND
 Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
