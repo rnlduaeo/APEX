@@ -19,7 +19,7 @@
  -- ORACLE WEBLOGIC SERVER에 설치
  -- GLASSFISH SERVER에 설치
  -- **APACHE TOMCAT에 설치**
-이 문서는 APACHE TOMCAT에 설ㅊ
+이 문서는 APACHE TOMCAT에 설치하는 것을 설명합니다.
 
 
 	이것은 코드입니다.
@@ -161,6 +161,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMTI5MzM3LC0xMDY0NzQ5MzA1LC0xND
-Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTE5NDM2MzExMjQsLTEwNjQ3NDkzMDUsLT
+E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
 -->
