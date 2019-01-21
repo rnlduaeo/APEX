@@ -78,6 +78,7 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 - Apache Tomcat 8.5 이상
 
 ### ORDS 다운로드
+[다운로드 링크](https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html) 에서 최신 ORDS를 다운로드 받습니다.
 
 
 
@@ -195,7 +196,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI5MzMxNiwxOTQ2NTM2ODk0LDkyMT
-E0NTM0LDEzMDUxODU3MDgsLTEwNjQ3NDkzMDUsLTE0NjUxMTE2
-NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbNDEwNDU3MzAyLC0xMDAyOTMzMTYsMTk0Nj
+UzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0xMDY0NzQ5MzA1
+LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
