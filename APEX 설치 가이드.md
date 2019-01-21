@@ -40,11 +40,11 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 1. [최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받고 압축파일을 푼 후 압축파일 푼 폴더의 경로로 이동합니다.
 2. SQL *Plus 에서 DATABASE에 접속. APEX는 SYSDBA role을 가진 SYS 유저로 진행합니다.
 
-	$ sqlplus /nolog
-	SQL> CONNECT SYS as SYSDBA
-	Enter password: SYS_password
+		$ sqlplus /nolog
+		SQL> CONNECT SYS as SYSDBA
+		Enter password: SYS_password
   
-   > 
+	   @apexins.sql APEX APEX TEMP /i/ - 
 
 ## Rename a file
 
@@ -173,6 +173,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTk3MjE4NSwtMTA2NDc0OTMwNSwtMT
+eyJoaXN0b3J5IjpbLTg4ODI2NjA2NywtMTA2NDc0OTMwNSwtMT
 Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
