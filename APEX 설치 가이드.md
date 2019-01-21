@@ -109,7 +109,7 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 	Enter the database service name: <database service name>
 	Enter 1 if you want to verify/install Oracle REST Data Services schema or 2 to skip this step [1]:1
 	
-	--- 위의 정보로 database에 jdbc connection을 맺고 ORDS_PUBLIC_USER를 생성함 --
+	-- 위의 정보로 database에 jdbc connection pool을 생성하여 ORDS_PUBLIC_USER를 생성함 --
 	
 	Enter the database password for ORDS_PUBLIC_USER:
 	Confirm password:           
@@ -263,8 +263,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU4NTk5MjEsLTM3NjkxMjczMiwtMT
-AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
-OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
-EwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbLTkzMzkzOTQxNiwtMzc2OTEyNzMyLC0xMD
+AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
+LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
+A5OTk5MjU2MF19
 -->
