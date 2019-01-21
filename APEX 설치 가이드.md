@@ -188,12 +188,14 @@ APEX 설치 시 이미지 가상 디렉토리를 /i/ 로 설정해주었으므�
 위의 작업을 정상적으로 마쳤다면 아래의 URL로 APEX가 접속 가능합니다. 
 http://<server-ip<dfdf>>:8080/ords/
 
-##APEX 
+## APEX SETTING
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzA4NjgxNCwtMzc2OTEyNzMyLC0xMD
-AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
-LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
-A5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbNDg1Nzk3Mjg2LC0zNzY5MTI3MzIsLTEwMD
+I5MzMxNiwxOTQ2NTM2ODk0LDkyMTE0NTM0LDEzMDUxODU3MDgs
+LTEwNjQ3NDkzMDUsLTE0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMD
+k5OTkyNTYwXX0=
 -->
