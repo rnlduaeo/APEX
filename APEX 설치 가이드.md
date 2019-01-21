@@ -170,10 +170,12 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 	.....
 
 ### ORDS 이미지 디렉토리 생성
-1. DATABASE 서버에 APEX 가 설치된 경로에 있는 images 폴더를 TOMCAT서버에 복사합니다.
+1. DATABASE 서버에 APEX 가 설치된 경로에 있는 images 폴더를 TOMCAT서버에 복사합니다. 아래의 명령어는 참고용입니다.
 
-		scp -i /home/oracle/privateKey -r /home/oracle/apex/images opc@<host name>:<target directory>
+		scp -i /home/oracle/privateKey -r /home/oracle/apex/images opc@<db server ip>:<target directory>
 	
+2. TOMCAT 서버에 이미지 디렉토리 i 생성
+3. 
 
 # Synchronization
 
@@ -289,8 +291,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTY2Mzc3NSwtMzc2OTEyNzMyLC0xMD
-AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
-LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
-A5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTEwMTU4MDQ3MDUsLTM3NjkxMjczMiwtMT
+AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
+OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
+EwOTk5OTI1NjBdfQ==
 -->
