@@ -76,6 +76,8 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 - OS : OEL(Oracle Enterprise Linux) 6.9
 - JDK 8 이상
 - Apache Tomcat 8.5 이상
+### 사전 점검 사항
+ORDS 오
 
 ### ORDS 다운로드
 [다운로드 링크](https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html) 에서 최신 ORDS를 다운로드 받습니다.
@@ -86,7 +88,18 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 ### ORDS 설치
 
 	$ cd ords 
-	$
+	$ ls -al
+	drwxr-xr-x. 7 root root     4096 Jan 18 07:51 .
+	drwxr-xr-x. 3 root root     4096 Jan 18 07:06 ..
+	drwxr-xr-x. 2 root root     4096 Jan 18 07:51 conf
+	drwxr-xr-x. 3 root root     4096 Jan 11 10:15 docs
+	drwxr-xr-x. 6 root root     4096 Oct 15 17:29 examples
+	-rw-r--r--. 1 root root    31362 Dec 14 15:32 index.html
+	drwxr-xr-x. 3 root root     4096 Jan 18 07:40 ords
+	-rw-r--r--. 1 root root 59033835 Jan 18 07:40 ords.war
+	drwxr-xr-x. 2 root root     4096 Jan 18 08:25 params
+	$ java -jar ords.war install advanced
+
 
 # Synchronization
 
@@ -202,8 +215,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY3NjA3MDgsLTEwMDI5MzMxNiwxOT
-Q2NTM2ODk0LDkyMTE0NTM0LDEzMDUxODU3MDgsLTEwNjQ3NDkz
-MDUsLTE0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX
-0=
+eyJoaXN0b3J5IjpbNDUzMzEwODc5LC0xMDAyOTMzMTYsMTk0Nj
+UzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0xMDY0NzQ5MzA1
+LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
