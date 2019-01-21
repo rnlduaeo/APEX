@@ -37,7 +37,9 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 
 ### APEX 다운로드 및 설치
 
-[최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받고 압축파일을 푼 후 
+1. [최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받고 압축파일을 푼 후 압축파일 푼 폴더의 경로로 이동합니다.
+2. SQL *Plus 에서 DATABASE에 접속. APEX는 SYSDBA role을 가진 SYS 유저로 진행합니다.
+
 
 ## Rename a file
 
@@ -166,6 +168,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY2NTk1ODIsLTEwNjQ3NDkzMDUsLT
-E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbNTkxODc3ODM2LC0xMDY0NzQ5MzA1LC0xND
+Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
