@@ -37,7 +37,7 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 
 ### APEX 다운로드 및 설치
 
-All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
+[최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받고 압축파일을 푼 후 
 
 ## Rename a file
 
@@ -166,6 +166,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxOTc3NjUyLC0xMDY0NzQ5MzA1LC0xND
-Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTE1NzY2NTk1ODIsLTEwNjQ3NDkzMDUsLT
+E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
 -->
