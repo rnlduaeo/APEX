@@ -185,7 +185,7 @@ APEX 설치 시 이미지 가상 디렉토리를 /i/ 로 설정해주었으므�
 		cp ords.war $CATALINA_HOME/webapps/		
 
 ### 접속 확인
-http://'<server-name>:'<port>/ords/
+http://<server-name<dfdf>>:<port<>>
 
 
 
@@ -303,7 +303,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NjQ3MDQ4LC0zNzY5MTI3MzIsLTEwMD
+eyJoaXN0b3J5IjpbNzg5NDE3NjgwLC0zNzY5MTI3MzIsLTEwMD
 I5MzMxNiwxOTQ2NTM2ODk0LDkyMTE0NTM0LDEzMDUxODU3MDgs
 LTEwNjQ3NDkzMDUsLTE0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMD
 k5OTkyNTYwXX0=
