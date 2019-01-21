@@ -12,14 +12,14 @@
  APEX는 ORACLE DATABASE 안에 내장되어 있는 WEB DEVELOPMENT를 위한 PLATFORM 입니다. ORACLE DB를 설치하면 기본적으로 내장되어 있으나 버전이 최신이 아닐 수 있으므로 OTN(ORACLE TECHNOLOGY NETWORK)에 등재되어 있는 [최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받아서 사용하는 것을 권장합니다. 
  
  APEX 설치는 크게 두가지의 단계로 이루어져 있습니다.
- 1.  APEX 설치입니다. APEX는 다수의 SCHEMA, PL/SQL PACKAGE 로 이루어져 있으며 DATABASE 서버내에 설치됩니다. 
+ 1.  **APEX 설치**입니다. APEX는 다수의 SCHEMA, PL/SQL PACKAGE 로 이루어져 있으며 DATABASE 서버내에 설치됩니다. 
  
- 2.  APEX의 WEB LISTENER 역할을 담당하는 ORDS 설치입니다. ORDS는 4가지 모드로 설치 가능합니다.
+ 2.  APEX의 WEB LISTENER 역할을 담당하는 **ORDS 설치**입니다. ORDS는 4가지 모드로 설치 가능합니다.
  -- STANDALONE 모드 : APEX가 설치된 DB 서버에 ORDS 설치
  -- ORACLE WEBLOGIC SERVER에 설치
  -- GLASSFISH SERVER에 설치
- -- 
-
+ -- **APACHE TOMCAT에 설치**
+이 문서는 APACHE TOMCAT에 설ㅊ
 
 
 	이것은 코드입니다.
@@ -161,6 +161,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ3NDkzMDUsLTE0NjUxMTE2NjUsMT
-A3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbODcyMTI5MzM3LC0xMDY0NzQ5MzA1LC0xND
+Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
