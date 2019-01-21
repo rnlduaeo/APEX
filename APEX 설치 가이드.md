@@ -45,7 +45,7 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 		Enter password: SYS_password
   
 	    SQL> @apexins.sql APEX APEX TEMP /i/ -- Full development 환경을 설치
-    - 
+    - 설치 패키지 뒤의 parameter는 각각 순서대로 APEX 애플리케이션 유저가 사용하는  tablespace, APEX file 유저가 사용하는 tablespace, 
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -173,6 +173,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDk3ODYwMCwtMTA2NDc0OTMwNSwtMT
+eyJoaXN0b3J5IjpbMTg3NTAwOTIxMywtMTA2NDc0OTMwNSwtMT
 Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
