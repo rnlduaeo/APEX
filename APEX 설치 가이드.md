@@ -46,6 +46,8 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
   
 	    SQL> @apexins.sql APEX APEX TEMP /i/ -- Full development 환경을 설치
     - 설치 패키지 뒤의 parameter는 각각 순서대로 APEX APPLICATION USER tablespace, APEX FILE USER tablespace, APEX 가상 이미지 디렉토리 이름을 의미합니다.
+
+3. APEX 설치가 완료되면 APEX_180200, FLOWS_FILES, APEX_PUBLIC_USER 가 생성됩니다
 ### APEX instance admin account 생성
 
 
@@ -172,6 +174,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mzc4MjM4MCwtMTA2NDc0OTMwNSwtMT
-Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbNzA2MDAxNjY1LC0xMDY0NzQ5MzA1LC0xND
+Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
