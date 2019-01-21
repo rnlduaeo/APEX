@@ -8,8 +8,10 @@
 - TOMCAT : 8.5.37
 - ORDS (ORACLE RESTFUL DATA SERVICE) : 18.4.0
 
-# Files
-
+## 설명
+APEX는 ORACLE DATABASE
+	이것은 코드입니다.
+	
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 ## Create files and folders
@@ -147,5 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbLTc4Njk2MjkzNSwxMDc0NzQ5Mzc1LDEwOT
+k5OTI1NjBdfQ==
 -->
