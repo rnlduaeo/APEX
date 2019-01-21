@@ -99,7 +99,48 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 	-rw-r--r--. 1 root root 59033835 Jan 18 07:40 ords.war
 	drwxr-xr-x. 2 root root     4096 Jan 18 08:25 params
 	$ java -jar ords.war install advanced
-	
+	[root@instance-20181217-1439 ords]# java -jar ords.war install advanced
+	Enter the name of the database server [DB host name]: Database host name
+	Enter the database listen port [1521]: 1521
+	Enter 1 to specify the database service name, or 2 to specify the database SID [1]:1
+	Enter the database service name: <database service name>
+	Enter 1 if you want to verify/install Oracle REST Data Services schema or 2 to skip this step [1]:1
+	Enter the database password for ORDS_PUBLIC_USER:
+	Confirm password:           ## 위의 정보로 database에 jdbc connection을 맺고 ORDS_PUBLIC_USER를 생성함
+	Requires SYS AS SYSDBA to verify Oracle REST Data Services schema.
+
+	Enter the database password for SYS AS SYSDBA:
+	Confirm password:
+
+	Retrieving information.
+	Enter the default tablespace for ORDS_METADATA [SYSAUX]: APEX
+	Enter the temporary tablespace for ORDS_METADATA [TEMP]: TEMP
+	Enter the default tablespace for ORDS_PUBLIC_USER [USERS]: APEX
+	Enter the temporary tablespace for ORDS_PUBLIC_USER [TEMP]: TEMP
+	Enter 1 if you want to use PL/SQL Gateway or 2 to skip this step.
+	If using Oracle Application Express or migrating from mod_plsql then you must 	enter 1 [1]: 1
+	Enter the PL/SQL Gateway database user name [APEX_PUBLIC_USER]: APEX_PUBLIC_USER
+	Enter the database password for APEX_PUBLIC_USER:
+	Confirm password:
+	Enter 1 to specify passwords for Application Express RESTful Services database users (APEX_LISTENER, APEX_REST_PUBLIC_USER) or 2 to skip this step [1]:1
+	Enter the database password for APEX_LISTENER:
+	Confirm password:
+	Enter the database password for APEX_REST_PUBLIC_USER:
+	Confirm password:
+	Jan 18, 2019 8:59:00 AM
+	INFO: reloaded pools: []
+	Installing Oracle REST Data Services version 18.4.0.r3541002
+	... Log file written to /root/ords_install_core_2019-01-18_085900_00587.log
+	... Verified database prerequisites
+	... Created Oracle REST Data Services schema
+	... Created Oracle REST Data Services proxy user
+	... Granted privileges to Oracle REST Data Services
+	... Created Oracle REST Data Services database objects
+	... Log file written to /root/ords_install_datamodel_2019-01-18_085910_00552.log
+	... Log file written to /root/ords_install_apex_2019-01-18_085911_00486.log
+	Completed installation for Oracle REST Data Services version 18.4.0.r3541002. Elapsed time: 00:00:11.757
+
+	Enter 1 if you wish to start in standalone mode or 2 to exit [1]:2
 
 
 # Synchronization
@@ -216,8 +257,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjEwODY5MTgsLTM3NjkxMjczMiwtMT
-AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
-OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
-EwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbMTc5MDUzOTU0MCwtMzc2OTEyNzMyLC0xMD
+AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
+LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
+A5OTk5MjU2MF19
 -->
