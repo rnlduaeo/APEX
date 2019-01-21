@@ -57,13 +57,15 @@ APEX 개발 환경을 총 관리하는 APEX ADMIN ACCOUNT를 생성합니다. AD
 	SQL> @apxchpwd.sql --추후에 ADMIN 패스워드를 잊어버렸을 때에도 이 스크립트를 돌려 PASSWORD RESET할 수 있음.
 
 ### APEX_PUBLIC_USER 설정
-APEX_PUBLIC_USER는 최초 생성 시 RANDOM PASSWORD로 설정되어 있습니다. 
+APEX_PUBLIC_USER는 최초 생성 시 RANDOM PASSWORD로 설정되어 있습니다. 초기 비밀번호 세팅을 수행합니다.
+
+	SQL> ALTER PROFILE DEFAULT limit PASSWORD_LIFE_TIME UNLIMITED ;
+
 
 ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIFE TIME이 180일로 설정되어 있습니다. 이 제한으로 인해 ORDS에서 APEX로 CONNECTION 시 PASSWORD가 LOCK-IN되어 문제가 발생할 수 있으므로 해당 유저의 PASSWORD 설정을 변경합니다.
 
 	SQL> ALTER PROFILE DEFAULT limit PASSWORD_LIFE_TIME UNLIMITED;
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+	
 
 ## Export a file
 
@@ -184,6 +186,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYyOTEzOTksLTEwNjQ3NDkzMDUsLT
-E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbMTMwNTE4NTcwOCwtMTA2NDc0OTMwNSwtMT
+Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
