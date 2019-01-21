@@ -150,8 +150,8 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 설치 진행 시 생성되는 DATABASE USER에 대한 설명은 아래의 표를 참고하세요.
 |USER NAME        |설명                                     
 |---------------- |-------------------------------
-|`APEX_REST_PUBLIC_USER` |ORACLE APEX 의 RESTful Service 사용시             
-|`APEX_LISTENER`           |`"Isn't this fun?"`            
+|`APEX_REST_PUBLIC_USER` |ORACLE APEX 의 RESTful Service 사용시 필요            
+|`APEX_LISTENER`           |APEX 안의 RESTful Service definition            
 |`ORDS_METADATA`           |`-- is en-dash, --- is em-dash`
 |`ORDS_PUBLIC_USER`|
 
@@ -269,7 +269,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDI0OTI0NiwtMzc2OTEyNzMyLC0xMD
+eyJoaXN0b3J5IjpbMTQxNjI3NDI0NCwtMzc2OTEyNzMyLC0xMD
 AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
 LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
 A5OTk5MjU2MF19
