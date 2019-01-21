@@ -9,7 +9,8 @@
 - ORDS (ORACLE RESTFUL DATA SERVICE) : 18.4.0
 
 ## 설명
-APEX는 ORACLE DATABASE 안에 내장되어 있는 WEB DEVELOPMENT를 위한 PLATFORM 입니다. ORACLE DB를 설치하면 기본적으로 내장되어 있으나 버전이 최신이 아닐 수 있으므로 OTN(ORACLE TECHNOLOGY NETWORK)에 등재되어 있는 [최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받아서 사용하는 것을 권장합니다. APEX는 ORACLE DATABASE의 PL/SQL, 
+ APEX는 ORACLE DATABASE 안에 내장되어 있는 WEB DEVELOPMENT를 위한 PLATFORM 입니다. ORACLE DB를 설치하면 기본적으로 내장되어 있으나 버전이 최신이 아닐 수 있으므로 OTN(ORACLE TECHNOLOGY NETWORK)에 등재되어 있는 [최신 APEX를 다운로드](https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) 받아서 사용하는 것을 권장합니다. 
+ APEX는 다수의 SCHEMA, PL/SQL PACKAGE 로 이루어져 있으며 DATABASE 서버에 설치됩니다. 
 
 
 	이것은 코드입니다.
@@ -151,6 +152,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDYxNzE3NCwxMDc0NzQ5Mzc1LDEwOT
+eyJoaXN0b3J5IjpbMTg1MTc2ODYwNCwxMDc0NzQ5Mzc1LDEwOT
 k5OTI1NjBdfQ==
 -->
