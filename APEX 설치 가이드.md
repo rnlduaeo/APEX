@@ -1,12 +1,12 @@
 # APEX 및 ORDS 설치 가이드
 
-해당 문서는 ORACLE DATABASE 11GR2 기반으로 작성되었습니다. 설치하는 APEX와 ORDS 버전은 다음과 같습니다. 이미 WEB SERVER를 위한 TOMCAT 세팅이 완료되었다는 가정하에 문서를 작성합니다. 
+해당 문서는 ORACLE DATABASE 11GR2 기반으로 작성되었습니다. 이미 WEB SERVER를 위한 TOMCAT 세팅이 완료되었다는 가정하에 문서를 작성합니다. 
 
 ## 버전 정보
 - ORACLE DATABASE : 11GR2
 - ORACLE APEX : 18.2
 - TOMCAT : 8.5.37
-- 
+- ORDS (ORACLE RESTFUL DATA SERVICE) : 18.4.0
 
 # Files
 
@@ -147,5 +147,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTUwNTM0NywxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
 -->
