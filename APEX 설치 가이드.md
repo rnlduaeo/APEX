@@ -33,7 +33,7 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 	-- For non-OMF
 	CREATE TABLESPACE apex DATAFILE '/path/to/datafiles/apex01.dbf' SIZE 100M AUTOEXTEND ON NEXT 1M;
 
-## Switch to another file
+### APEX 다운로드 및 설치
 
 All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
 
@@ -164,6 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDkzMjEzMiwtMTA2NDc0OTMwNSwtMT
+eyJoaXN0b3J5IjpbLTc2NDcyNjUzNiwtMTA2NDc0OTMwNSwtMT
 Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
