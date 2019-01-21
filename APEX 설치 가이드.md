@@ -26,6 +26,8 @@
 
 ## APEX 설치 [DB 서버에서 작업]
 ### APEX tablespace 생성
+APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도의 tablespace를 두고 사용하는 것이 좋습니다.
+
 	-- For OMF
 	CREATE TABLESPACE apex2 DATAFILE SIZE 100M AUTOEXTEND ON NEXT 1M; 
 	-- For non-OMF
@@ -162,6 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDQxOTkzLC0xMDY0NzQ5MzA1LC0xND
-Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTgwMDkzMjEzMiwtMTA2NDc0OTMwNSwtMT
+Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
