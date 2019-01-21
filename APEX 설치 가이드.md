@@ -1,6 +1,6 @@
 # APEX 및 ORDS 설치 가이드
 
-해당 문서는 ORACLE DATABASE 11GR2 기반으로 작성되었습니다. 이미 WEB SERVER를 위한 TOMCAT 세팅이 완료되었다는 가정하에 문서를 작성합니다. 
+해당 문서는 ORACLE DATABASE 11GR2 기반으로 작성되었습니다. 이미 WEB SERVER를 위한 TOMCAT 세팅이 완료되었다는 가정하에 문서가 작
 
 ## 버전 정보
 - ORACLE DATABASE : 11GR2
@@ -24,7 +24,7 @@
      APEX, ORDS 버전 별 지원되는 플랫폼이 상이할 수 있으므로 APEX버전, ORDS 버전, TOMCAT 버전을 필히 확인 후 설치하시기 바랍니다.
 [설치 전 버전 확인](https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/18.3/aelig/installing-REST-data-services.html#GUID-57B22E09-081E-4326-A9D5-61635B518931)
 
-## Create files and folders
+## APEX 설치 [DB 서버에서 작업]
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
@@ -159,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTE1ODk4MCwtMTA2NDc0OTMwNSwtMT
-Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbLTEyOTIxMTYwOTEsLTEwNjQ3NDkzMDUsLT
+E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
 -->
