@@ -151,9 +151,9 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 |USER NAME        |설명                                     
 |---------------- |-------------------------------
 |`APEX_REST_PUBLIC_USER` |Application Express 작업 공간에 정의 된 RESTful 서비스에 액세스중인 경우 Oracle Application Express RESTful Services를 호출 할 때 사용되는 데이터베이스 사용자           
-|`APEX_LISTENER`           |
-|`ORDS_METADATA`           |
-|`ORDS_PUBLIC_USER`|
+|`APEX_LISTENER`           |Application Express 작업 공간에 정의 된 RESTful 서비스에 액세스중인 경우 Oracle Application Express에 저장된 RESTful 서비스 정의를 쿼리하는 데 사용되는 데이터베이스 사용자
+|`ORDS_METADATA`           |많은 Oracle REST Data Services 기능을 구현하는 데 사용되는 PL / SQL 패키지의 소유자. ORDS_METADATA는 Oracle REST Data Services 사용 가능 스키마에 대한 메타 데이타가 저장되는 곳입니다.Oracle REST Data Services는 직접 액세스하지 않습니다. Oracle REST Data Services 애플리케이션은 ORDS_METADATA 스키마에 연결을 생성하지 않습니다. 스키마 암호가 임의 문자열로 설정되고 연결 권한이 철회되며 암호가 만료됩니다.
+|`ORDS_PUBLIC_USER`|Oracle REST Data Services 사용 가능 스키마에서 RESTful 서비스를 호출하는 사용자.
 
 # Synchronization
 
@@ -269,7 +269,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjE0NjE2MSwtMzc2OTEyNzMyLC0xMD
+eyJoaXN0b3J5IjpbMTM2NjQxNzEzNywtMzc2OTEyNzMyLC0xMD
 AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
 LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
 A5OTk5MjU2MF19
