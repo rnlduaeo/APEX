@@ -67,9 +67,8 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 	SQL> ALTER PROFILE DEFAULT limit PASSWORD_LIFE_TIME UNLIMITED;
 	
 
-## Export a file
+## ORDS 설치 [Tomcat 서버에서 작업]
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
 # Synchronization
@@ -186,7 +185,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2ND
-c0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1
-NjBdfQ==
+eyJoaXN0b3J5IjpbMjAyNTc0MDUzNyw5MjExNDUzNCwxMzA1MT
+g1NzA4LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkz
+NzUsMTA5OTk5MjU2MF19
 -->
