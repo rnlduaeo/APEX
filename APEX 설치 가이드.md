@@ -19,7 +19,8 @@
  -- ORACLE WEBLOGIC SERVER에 설치
  -- GLASSFISH SERVER에 설치
  -- **APACHE TOMCAT에 설치**
-이 문서는 APACHE TOMCAT에 설치하는 것을 설명합니다.Note : 
+이 문서는 APACHE TOMCAT에 설치하는 것을 설명합니다.
+     >Note : APEX 설치 전  APEX, ORDS 버전 별 지원되는 플랫폼이 상이할 수 있으므로 호환되는 버전을 확인 후 설치합니
 	
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -158,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczMjA4ODYsLTEwNjQ3NDkzMDUsLTE0Nj
-UxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbMTA3MDA2NDQ3MiwtMTA2NDc0OTMwNSwtMT
+Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
