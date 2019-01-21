@@ -26,9 +26,9 @@
 
 ## APEX 설치 [DB 서버에서 작업]
 ### APEX tablespace 생성
-	,,-- For OMF
+	-- For OMF
 	CREATE TABLESPACE apex2 DATAFILE SIZE 100M AUTOEXTEND ON NEXT 1M; 
-	-- For non-OMㄹ
+	-- For non-OMF
 	CREATE TABLESPACE apex DATAFILE '/path/to/datafiles/apex01.dbf' SIZE 100M AUTOEXTEND ON NEXT 1M;
 
 ## Switch to another file
@@ -162,6 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc4ODkwOTgsLTEwNjQ3NDkzMDUsLT
-E0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
+eyJoaXN0b3J5IjpbMjE0MDQxOTkzLC0xMDY0NzQ5MzA1LC0xND
+Y1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
