@@ -13,7 +13,10 @@
  
  APEX 설치는 크게 두가지의 단계로 이루어져 있습니다.
  1.  APEX 설치입니다. APEX는 다수의 SCHEMA, PL/SQL PACKAGE 로 이루어져 있으며 DATABASE 서버내에 설치됩니다. 
- 2.  APEX의 WEB LISTENER 역할을 담당하는 ORDS 설치입니다. ORDS 
+ 
+ 2.  APEX의 WEB LISTENER 역할을 담당하는 ORDS 설치입니다. ORDS는 2가지 모드로 설치 가능합니다.
+ - 
+
 
 
 	이것은 코드입니다.
@@ -155,6 +158,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0OTMwMTE2LDEwNzQ3NDkzNzUsMTA5OT
+eyJoaXN0b3J5IjpbNzMyODQ5MDM5LDEwNzQ3NDkzNzUsMTA5OT
 k5MjU2MF19
 -->
