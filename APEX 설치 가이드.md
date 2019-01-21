@@ -46,7 +46,7 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
   
 	    SQL> @apexins.sql APEX APEX TEMP /i/ -- Full development 환경을 설치
     - 설치 패키지 뒤의 parameter는 각각 순서대로 APEX APPLICATION USER tablespace, APEX FILE USER tablespace, APEX 가상 이미지 디렉토리 이름을 의미합니다.
-	> 운영환경일 경우에는 
+	> 운영환경일 경우에는 apxrtins.sql 패키지로 설치합니다. Runtime 환경은 애플리케이션을 구동만 할뿐 유
 3. APEX 설치가 완료되면 APEX_180200, FLOWS_FILES, APEX_PUBLIC_USER 가 생성됩니다
 
 		SQL> select username, created, account_status, lock_date from dba_users where created > trunc(sysdate) order by 2; --생성한 USER 확인
@@ -207,7 +207,7 @@ WORKSPACE와 SCHEMA와의 관계는 아래의 그림을 참고하세요.
 ![enter image description here](https://lh3.googleusercontent.com/HDICVNY9zsGpK8V7R8qCHYm43BA4Q59kv7fGMrkfN1OiT9d6h6fdZqAtFmNkdjgxGwa-tSyvYszW)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzIxMzc4NywxMDgxMjg5ODYsMTg5Mj
+eyJoaXN0b3J5IjpbMTU5ODE5OTc5OSwxMDgxMjg5ODYsMTg5Mj
 Q5ODUwMywzMTg5MzQwMDUsNzMzMzQyMjkyLDQ4NTc5NzI4Niwt
 Mzc2OTEyNzMyLC0xMDAyOTMzMTYsMTk0NjUzNjg5NCw5MjExND
 UzNCwxMzA1MTg1NzA4LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1
