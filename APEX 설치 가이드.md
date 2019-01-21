@@ -175,7 +175,7 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 		scp -i /home/oracle/privateKey -r /home/oracle/apex/images opc@<db server ip>:<target directory>
 	
 2. TOMCAT 서버에 이미지 디렉토리 i 생성
-3. 
+이전에 
 
 # Synchronization
 
@@ -291,7 +291,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU4MDQ3MDUsLTM3NjkxMjczMiwtMT
+eyJoaXN0b3J5IjpbLTE3NjA1OTQwMzQsLTM3NjkxMjczMiwtMT
 AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
 OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
 EwOTk5OTI1NjBdfQ==
