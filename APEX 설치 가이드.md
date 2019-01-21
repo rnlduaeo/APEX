@@ -179,7 +179,15 @@ APEX 설치 시 이미지 가상 디렉토리를 /i/ 로 설정해주었으므�
 		
 		$ mkdir $CATALINA_HOME/webapps/i/
 		$ cp -R /tmp/apex/images/* $CATALINA_HOME/webapps/i/
-		
+3. ords.war 파일을 TOMCAT의 webapps 폴더 안에 복사합니다.
+
+		cd <ords 설치경로>
+		cp ords.war $CATALINA_HOME/webapps/		
+
+### 접속 확인
+
+
+
 
 # Synchronization
 
@@ -295,8 +303,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ4MzkzNTcsLTM3NjkxMjczMiwtMT
-AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
-OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
-EwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbMTczMDUwMjQ1NCwtMzc2OTEyNzMyLC0xMD
+AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
+LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
+A5OTk5MjU2MF19
 -->
