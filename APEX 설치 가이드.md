@@ -156,12 +156,12 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 
 	Enter 1 if you wish to start in standalone mode or 2 to exit [1]:2
 설치 진행 시 생성되는 DATABASE USER에 대한 설명은 아래의 표를 참고하세요.
-|USER NAME        |설명                                     
-|---------------- |-------------------------------
+|USER NAME               |설명                                     
+|----------------------- |-------------------------------
 |`APEX_REST_PUBLIC_USER` |Application Express 작업 공간에 정의 된 RESTful 서비스에 액세스중인 경우 Oracle Application Express RESTful Services를 호출 할 때 사용되는 데이터베이스 사용자           
-|`APEX_LISTENER`           |Application Express 작업 공간에 정의 된 RESTful 서비스에 액세스중인 경우 Oracle Application Express에 저장된 RESTful 서비스 정의를 쿼리하는 데 사용되는 데이터베이스 사용자
-|`ORDS_METADATA`           |많은 Oracle REST Data Services 기능을 구현하는 데 사용되는 PL / SQL 패키지의 소유자. ORDS_METADATA는 Oracle REST Data Services 사용 가능 스키마에 대한 메타 데이타가 저장되는 곳입니다.Oracle REST Data Services는 직접 액세스하지 않습니다. Oracle REST Data Services 애플리케이션은 ORDS_METADATA 스키마에 연결을 생성하지 않습니다. 스키마 암호가 임의 문자열로 설정되고 연결 권한이 철회되며 암호가 만료됩니다.
-|`ORDS_PUBLIC_USER`|Oracle REST Data Services 사용 가능 스키마에서 RESTful 서비스를 호출하는 사용자.
+|`APEX_LISTENER`         |Application Express 작업 공간에 정의 된 RESTful 서비스에 액세스중인 경우 Oracle Application Express에 저장된 RESTful 서비스 정의를 쿼리하는 데 사용되는 데이터베이스 사용자
+|`ORDS_METADATA`         |많은 Oracle REST Data Services 기능을 구현하는 데 사용되는 PL / SQL 패키지의 소유자. ORDS_METADATA는 Oracle REST Data Services 사용 가능 스키마에 대한 메타 데이타가 저장되는 곳입니다.Oracle REST Data Services는 직접 액세스하지 않습니다. Oracle REST Data Services 애플리케이션은 ORDS_METADATA 스키마에 연결을 생성하지 않습니다. 스키마 암호가 임의 문자열로 설정되고 연결 권한이 철회되며 암호가 만료됩니다.
+|`ORDS_PUBLIC_USER`      |Oracle REST Data Services 사용 가능 스키마에서 RESTful 서비스를 호출하는 사용자.
 ### DB서버에서 방금 생성된 USER 확인
 	SQL> select username, created from dba_users order by created desc;
 	USERNAME                       CREATED
@@ -214,10 +214,10 @@ WORKSPACE와 SCHEMA와의 관계는 아래의 그림을 참고하세요.
 ![enter image description here](https://lh3.googleusercontent.com/HDICVNY9zsGpK8V7R8qCHYm43BA4Q59kv7fGMrkfN1OiT9d6h6fdZqAtFmNkdjgxGwa-tSyvYszW)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjI0MjY1NSwtMTYwNzExNzc2MSwtMT
-Q1NjMzODU3OSwxMDgxMjg5ODYsMTg5MjQ5ODUwMywzMTg5MzQw
-MDUsNzMzMzQyMjkyLDQ4NTc5NzI4NiwtMzc2OTEyNzMyLC0xMD
-AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
-LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
-A5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbMTAxODA5MzE4NCwxNDA2MjQyNjU1LC0xNj
+A3MTE3NzYxLC0xNDU2MzM4NTc5LDEwODEyODk4NiwxODkyNDk4
+NTAzLDMxODkzNDAwNSw3MzMzNDIyOTIsNDg1Nzk3Mjg2LC0zNz
+Y5MTI3MzIsLTEwMDI5MzMxNiwxOTQ2NTM2ODk0LDkyMTE0NTM0
+LDEzMDUxODU3MDgsLTEwNjQ3NDkzMDUsLTE0NjUxMTE2NjUsMT
+A3NDc0OTM3NSwxMDk5OTkyNTYwXX0=
 -->
