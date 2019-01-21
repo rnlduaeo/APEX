@@ -52,7 +52,7 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 		SQL> select username, created, account_status, lock_date from dba_users where created > trunc(sysdate) order by 2; --생성한 USER 확인
 		
 ### APEX instance admin account 생성
-APEX 개발 환경을 총 관리하는 APEX ADMIN ACCOUNT를 생성합니다. ADMIN 유저는 APEX 최초 접속 시에도 사용합니다.
+APEX 개발 환경을 총 관리하는 APEX ADMIN ACCOUNT를 생성합니다. ADMIN 유저는 APEX 설치 후 최초 접속 시에도 사용합니다.
 
 	SQL> @apxchpwd.sql --추후에 ADMIN 패스워드를 잊어버렸을 때에도 이 스크립트를 돌려 PASSWORD RESET할 수 있음.
 
@@ -186,6 +186,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTE4NTcwOCwtMTA2NDc0OTMwNSwtMT
-Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2ND
+c0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1
+NjBdfQ==
 -->
