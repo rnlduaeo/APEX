@@ -72,6 +72,10 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 >Note:
 >이 문서는 Tomcat이 이미 설치되어 있다는 가정하에 작성되었습니다. Tomcat 설치 및 환경 세팅관련은 다른 문서를 참조하세요.
 
+### 설치 환경
+- OS : OEL(Oracle Enterprise Linux) 6.9
+- JDK 8 이상
+- Apache Tomcat 8.5 이상
 
 
 
@@ -189,7 +193,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MT
-g1NzA4LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkz
-NzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTEyNTY5ODMyMDgsMTk0NjUzNjg5NCw5Mj
+ExNDUzNCwxMzA1MTg1NzA4LC0xMDY0NzQ5MzA1LC0xNDY1MTEx
+NjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
 -->
