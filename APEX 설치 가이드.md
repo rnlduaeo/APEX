@@ -156,11 +156,6 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 
 	Enter 1 if you wish to start in standalone mode or 2 to exit [1]:2
 설치 진행 시 생성되는 DATABASE USER에 대한 설명은 아래의 표를 참고하세요.
-|  |  |
-|--|--|
-|  |  |
-
-
 
 |USER NAME               |설명                            |       
 |----------------------- |-------------------------------|
@@ -220,7 +215,7 @@ WORKSPACE와 SCHEMA와의 관계는 아래의 그림을 참고하세요.
 ![enter image description here](https://lh3.googleusercontent.com/HDICVNY9zsGpK8V7R8qCHYm43BA4Q59kv7fGMrkfN1OiT9d6h6fdZqAtFmNkdjgxGwa-tSyvYszW)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTUyMDUwNiwxNDA2MjQyNjU1LC0xNj
+eyJoaXN0b3J5IjpbLTM4MDA0NTY1MCwxNDA2MjQyNjU1LC0xNj
 A3MTE3NzYxLC0xNDU2MzM4NTc5LDEwODEyODk4NiwxODkyNDk4
 NTAzLDMxODkzNDAwNSw3MzMzNDIyOTIsNDg1Nzk3Mjg2LC0zNz
 Y5MTI3MzIsLTEwMDI5MzMxNiwxOTQ2NTM2ODk0LDkyMTE0NTM0
