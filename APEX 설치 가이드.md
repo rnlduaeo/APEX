@@ -148,6 +148,11 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 
 	Enter 1 if you wish to start in standalone mode or 2 to exit [1]:2
 설치 진행 시 생성되는 DATABASE USER에 대한 설명은 아래의 표를 참고하세요.
+|USER NAME        |설명                                     
+|---------------- |-------------------------------
+|Single backticks |`'Isn't this fun?'`            
+|Quotes           |`"Isn't this fun?"`            
+|Dashes           |`-- is en-dash, --- is em-dash`
 
 
 # Synchronization
@@ -264,8 +269,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQzMjM5NTAsLTM3NjkxMjczMiwtMT
-AwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcw
-OCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LD
-EwOTk5OTI1NjBdfQ==
+eyJoaXN0b3J5IjpbMTY1Mjc5MDI4MCwtMzc2OTEyNzMyLC0xMD
+AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
+LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
+A5OTk5MjU2MF19
 -->
