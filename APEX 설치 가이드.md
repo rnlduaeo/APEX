@@ -25,12 +25,12 @@ APEX 구동을 위한 전체 ARCHITECTURE는 아래의 그림을 참고하세요
 
 ![enter image description here](https://lh3.googleusercontent.com/vdYe5_h-Qjt2oFRJVVe0zdsrjv3yCiHiDfcOXCuD20GOBFll1lEKVQJOYtltpqQkCoF4L-fwcfWI)
 
-     >NOTE :  
+   >NOTE :  
      APEX, ORDS 버전 별 지원되는 플랫폼이 상이할 수 있으므로 APEX버전, ORDS 버전, TOMCAT 버전을 필히 확인 후 설치하시기 바랍니다.
 [설치 전 버전 확인](https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/18.3/aelig/installing-REST-data-services.html#GUID-57B22E09-081E-4326-A9D5-61635B518931)
 
 ## APEX 설치 [DB 서버에서 작업]
-> Note:
+> NOTE:
 >설치 전 시스템 요구사항을 확인 후 설치합니다. [링크로 이동](https://docs.oracle.com/en/database/oracle/application-express/18.2/htmig/Oracle-AE-installation-requirements.html#GUID-02BE4A34-B631-412C-8A82-EB92DABBACE0)
 ### APEX tablespace 생성
 APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도의 tablespace를 두고 사용하는 것이 좋습니다.
@@ -214,10 +214,10 @@ WORKSPACE와 SCHEMA와의 관계는 아래의 그림을 참고하세요.
 ![enter image description here](https://lh3.googleusercontent.com/HDICVNY9zsGpK8V7R8qCHYm43BA4Q59kv7fGMrkfN1OiT9d6h6fdZqAtFmNkdjgxGwa-tSyvYszW)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDcxMTc3NjEsLTE0NTYzMzg1NzksMT
-A4MTI4OTg2LDE4OTI0OTg1MDMsMzE4OTM0MDA1LDczMzM0MjI5
-Miw0ODU3OTcyODYsLTM3NjkxMjczMiwtMTAwMjkzMzE2LDE5ND
-Y1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2NDc0OTMw
-NSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ
-==
+eyJoaXN0b3J5IjpbMTQwNjI0MjY1NSwtMTYwNzExNzc2MSwtMT
+Q1NjMzODU3OSwxMDgxMjg5ODYsMTg5MjQ5ODUwMywzMTg5MzQw
+MDUsNzMzMzQyMjkyLDQ4NTc5NzI4NiwtMzc2OTEyNzMyLC0xMD
+AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
+LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
+A5OTk5MjU2MF19
 -->
