@@ -83,6 +83,10 @@ ORACLE DATABASE 11G 이상 버전 부터는 DEFAULT USER PROFILE에 PASSWORD LIF
 	$ mkdir ords 
 	$ unzip ords-18.4.0.354.1002.zip -d ords	
 
+### ORDS 설치
+
+	$ cd ords 
+	$
 
 # Synchronization
 
@@ -198,8 +202,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Mjg2MzA3NiwtMTAwMjkzMzE2LDE5ND
-Y1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2NDc0OTMw
-NSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ
-==
+eyJoaXN0b3J5IjpbLTE0MjY3NjA3MDgsLTEwMDI5MzMxNiwxOT
+Q2NTM2ODk0LDkyMTE0NTM0LDEzMDUxODU3MDgsLTEwNjQ3NDkz
+MDUsLTE0NjUxMTE2NjUsMTA3NDc0OTM3NSwxMDk5OTkyNTYwXX
+0=
 -->
