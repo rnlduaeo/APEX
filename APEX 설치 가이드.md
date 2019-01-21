@@ -20,8 +20,10 @@
  -- GLASSFISH SERVER에 설치
  -- **APACHE TOMCAT에 설치**
 이 문서는 APACHE TOMCAT에 설치하는 것을 설명합니다.
+
 APEX 구동을 위한 전체 ARCHITECTURE는 아래의 그림을 참고하세요.
-![enter image description here](https://picasaweb.google.com/107773221833053697413/6648870615622882193#6648870620336556674)
+
+![enter image description here](https://lh3.googleusercontent.com/vdYe5_h-Qjt2oFRJVVe0zdsrjv3yCiHiDfcOXCuD20GOBFll1lEKVQJOYtltpqQkCoF4L-fwcfWI)
 
      >NOTE :  
      APEX, ORDS 버전 별 지원되는 플랫폼이 상이할 수 있으므로 APEX버전, ORDS 버전, TOMCAT 버전을 필히 확인 후 설치하시기 바랍니다.
@@ -212,9 +214,10 @@ WORKSPACE와 SCHEMA와의 관계는 아래의 그림을 참고하세요.
 ![enter image description here](https://lh3.googleusercontent.com/HDICVNY9zsGpK8V7R8qCHYm43BA4Q59kv7fGMrkfN1OiT9d6h6fdZqAtFmNkdjgxGwa-tSyvYszW)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDA3Mjg1NywtMTQ1NjMzODU3OSwxMD
-gxMjg5ODYsMTg5MjQ5ODUwMywzMTg5MzQwMDUsNzMzMzQyMjky
-LDQ4NTc5NzI4NiwtMzc2OTEyNzMyLC0xMDAyOTMzMTYsMTk0Nj
-UzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0xMDY0NzQ5MzA1
-LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2MF19
+eyJoaXN0b3J5IjpbLTE2MDcxMTc3NjEsLTE0NTYzMzg1NzksMT
+A4MTI4OTg2LDE4OTI0OTg1MDMsMzE4OTM0MDA1LDczMzM0MjI5
+Miw0ODU3OTcyODYsLTM3NjkxMjczMiwtMTAwMjkzMzE2LDE5ND
+Y1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NTcwOCwtMTA2NDc0OTMw
+NSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ
+==
 -->
