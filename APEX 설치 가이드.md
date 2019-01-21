@@ -44,8 +44,8 @@ APEX에서 사용하는 SCHEMA, TABLE들의 관리 편이성를 위하여 별도
 		SQL> CONNECT SYS as SYSDBA
 		Enter password: SYS_password
   
-	   @apexins.sql APEX APEX TEMP /i/ - 
-
+	    SQL> @apexins.sql APEX APEX TEMP /i/ -- Full development 환경을 설치
+    - 
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -173,6 +173,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODI2NjA2NywtMTA2NDc0OTMwNSwtMT
+eyJoaXN0b3J5IjpbMTExNDk3ODYwMCwtMTA2NDc0OTMwNSwtMT
 Q2NTExMTY2NSwxMDc0NzQ5Mzc1LDEwOTk5OTI1NjBdfQ==
 -->
