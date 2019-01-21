@@ -200,15 +200,16 @@ APEX 최초 접속 시 INTERNAL WORKSPACE에 ADMIN 유저로 접속합니다.
 
 ![enter image description here](https://lh3.googleusercontent.com/P00p1crSLckMKbA_7piO0tDdWZMHx6wYBhx_N3c8mUjPgR50VFGhMDUT5fVqUW0vW4v5C4ZPzhVb)
 
-화면 상단에 Create Workspace 버튼을 클릭하여 workspace 를 생성한다. 
+화면 상단에 Create Workspace 버튼을 클릭하여 workspace 를 생성합니다. 
 ![enter image description here](https://lh3.googleusercontent.com/PKM2inLXPp4LtNTay9W318JX5bk2Q9IZBPuPMyxFAC1F_Q6XTJWe2jQdlKkPuWs1desOV5Ii1J-e)
 
-
+WORKSPACE와 SCHEMA와의 관계는 아래의 그림을 참고하세요. 
+![enter image description here](https://lh3.googleusercontent.com/HDICVNY9zsGpK8V7R8qCHYm43BA4Q59kv7fGMrkfN1OiT9d6h6fdZqAtFmNkdjgxGwa-tSyvYszW)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjQ5ODUwMywzMTg5MzQwMDUsNzMzMz
-QyMjkyLDQ4NTc5NzI4NiwtMzc2OTEyNzMyLC0xMDAyOTMzMTYs
-MTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4LC0xMDY0Nz
-Q5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMTA5OTk5MjU2
-MF19
+eyJoaXN0b3J5IjpbMTA4MTI4OTg2LDE4OTI0OTg1MDMsMzE4OT
+M0MDA1LDczMzM0MjI5Miw0ODU3OTcyODYsLTM3NjkxMjczMiwt
+MTAwMjkzMzE2LDE5NDY1MzY4OTQsOTIxMTQ1MzQsMTMwNTE4NT
+cwOCwtMTA2NDc0OTMwNSwtMTQ2NTExMTY2NSwxMDc0NzQ5Mzc1
+LDEwOTk5OTI1NjBdfQ==
 -->
