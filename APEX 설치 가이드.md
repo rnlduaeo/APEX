@@ -87,6 +87,7 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 
 ### ORDS 설치
 압축을 푼 경로로 들어갑니다.
+
 	$ cd ords 
 	$ ls -al
 	drwxr-xr-x. 7 root root     4096 Jan 18 07:51 .
@@ -99,7 +100,8 @@ TOMCAT 서버와 DATABASE 서버와의 통신을 위해 DB 서버 LISTENER 포�
 	-rw-r--r--. 1 root root 59033835 Jan 18 07:40 ords.war
 	drwxr-xr-x. 2 root root     4096 Jan 18 08:25 params
 
-	
+다음의 명령어로 ORDS를 설치합니다. 설치는 대화식으로 진행됩니다. 아래 설치 예시를 참고하여서 
+
 	$ java -jar ords.war install advanced
 	Enter the name of the database server [DB host name]: Database host name
 	Enter the database listen port [1521]: 1521
@@ -258,7 +260,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTA5MjU2MiwtMzc2OTEyNzMyLC0xMD
+eyJoaXN0b3J5IjpbMTc4NDMwNjE4NCwtMzc2OTEyNzMyLC0xMD
 AyOTMzMTYsMTk0NjUzNjg5NCw5MjExNDUzNCwxMzA1MTg1NzA4
 LC0xMDY0NzQ5MzA1LC0xNDY1MTExNjY1LDEwNzQ3NDkzNzUsMT
 A5OTk5MjU2MF19
