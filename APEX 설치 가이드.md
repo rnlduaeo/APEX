@@ -67,7 +67,7 @@ APEX 개발 환경을 총 관리하는 APEX ADMIN ACCOUNT를 생성합니다. AD
 ### APEX_PUBLIC_USER 설정
 APEX_PUBLIC_USER는 최초 생성 시 RANDOM PASSWORD로 설정되어 있습니다. 초기 비밀번호 세팅을 수행합니다.
 
-	SQL> ALTER PROFILE DEFAULT limit PASSWORD_LIFE_TIME UNLIMITED ;
+	SQL> ALTER USER APEX_PUBLIC_USER IDENTIFIED BY <PASSWORD> ;
 
 
 APEX_PUBLIC_USER는 ORDS에서 ORACLE APEX 내 PL / SQL Gateway 작업 (예 : 모든 Oracle Application Express 작업)을 호출 할 때 사용되는 데이터베이스 사용자입니다. 
